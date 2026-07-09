@@ -2,15 +2,15 @@
 name: claude-code-unicode-audit
 description: 检查本机 Claude Code 二进制是否含有向系统提示词日期行注入近不可见 Unicode 撇号（U+2019/U+02BC/U+02B9）的隐写标记代码，并在受影响时升级到干净版本。受影响区间 v2.1.193–2.1.196，v2.1.197 起已回滚。
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
   author: "wuwenbin-bj-st-01"
   license: "MIT"
 ---
 
-# Claude Code 日期行 Unicode 隐写审计 V1.0.1
+# Claude Code 日期行 Unicode 隐写审计 V1.0.2
 
 > **中文名**：Claude给中国用户的"标记"扫描器
-> **版本**：1.0.1 ｜ **作者**：wuwenbin-bj-st-01 ｜ **协议**：MIT
+> **版本**：1.0.2 ｜ **作者**：wuwenbin-bj-st-01 ｜ **协议**：MIT
 
 ## 触发词
 
